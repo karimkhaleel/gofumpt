@@ -1,0 +1,7 @@
+- id: gofumpt
+  name: Format go files
+  language: golang
+  entry: gofumpt
+  args: [-w, -l]
+  types:
+    - go
